@@ -1,0 +1,8 @@
+from datasets import load_dataset
+
+ds = load_dataset("wikimedia/wikipedia", "20231101.simple", split="train[:1%]")
+
+texts = [item["text"] for item in ds]
+
+print(f"Loaded {len(texts)} documents")
+print(texts[0][:500])

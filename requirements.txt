@@ -1,0 +1,9 @@
+﻿streamlit
+langchain
+langchain-ollama
+langchain-chroma
+chromadb
+ollama
+datasets
+tqdm
+python-dotenv
